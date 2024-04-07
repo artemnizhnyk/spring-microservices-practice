@@ -1,4 +1,4 @@
-package com.artemnizhnyk.questionservice.model;
+package com.artemnizhnyk.questionservice.web.dto;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
