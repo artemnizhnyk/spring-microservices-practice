@@ -40,7 +40,7 @@ public class QuestionController {
     }
 
     @PostMapping("/getQuestions")
-    public ResponseEntity<List<QuestionDto>> findQuestionsById(@RequestBody final List<Integer> questionIds) {
+    public ResponseEntity<List<QuestionDto>> findQuestionsByIds(@RequestBody final List<Integer> questionIds) {
         return questionService.findQuestionsById(questionIds);
     }
 

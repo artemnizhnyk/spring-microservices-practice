@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RequiredArgsConstructor
@@ -35,16 +34,13 @@ public class QuizService {
     }
 
     public ResponseEntity<List<QuestionDto>> getQuizQuestions(final Integer id) {
-        List<QuestionDto> questionsForUser = new ArrayList<>();
+        Quiz quiz = quizRepository.findById(id).get();
+        List<Integer> questionsIds = quiz.getQuestionIds();
 
-
-        return new ResponseEntity<>(questionsForUser, HttpStatus.OK);
-
+        return quizInterface.findQuestionsByIds(questionsIds);
     }
 
     public ResponseEntity<Integer> calculateResult(final Integer id, final List<Response> responses) {
-        Quiz quiz = quizRepository.findById(id).get();
-        int right = 0;
-        return new ResponseEntity<>(right, HttpStatus.OK);
+        return quizInterface.getScore(responses);
     }
 }
