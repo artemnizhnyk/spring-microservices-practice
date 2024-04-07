@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8db1838-de25-46da-9ed0-ef1a685cecda" name="Changes" comment="" />
+    <list default="true" id="f8db1838-de25-46da-9ed0-ef1a685cecda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/feign/QuizInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/question-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/QuizServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/QuizServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/model/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/service/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-service/src/main/java/com/artemnizhnyk/quizservice/service/QuizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/src/main/java/com/artemnizhnyk/registryservice/RegistryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/src/main/java/com/artemnizhnyk/registryservice/RegistryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,20 +34,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/question-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "minikube",
-      "originalNamespace": "default"
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="minikube" />
   </component>
@@ -49,6 +65,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2ellNYAQCIKpJatDI07VdAi8vV1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -61,11 +80,14 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.QuestionServiceApplication.executor": "Run",
+    "Spring Boot.QuizServiceApplication.executor": "Run",
+    "Spring Boot.RegistryServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nizhn/OneDrive/Desktop/IdeaProjects/spring-microservices-practice/quiz-service/src/main/java/com/artemnizhnyk/quizservice",
+    "last_opened_file_path": "C:/Users/nizhn/OneDrive/Desktop/IdeaProjects/spring-microservices-practice/registry-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +97,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QuestionServiceApplication">
+  <component name="RunManager" selected="Spring Boot.RegistryServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring-microservices-practice" />
       <method v="2">
@@ -155,6 +178,8 @@
       <updated>1712487005624</updated>
       <workItem from="1712487006699" duration="84000" />
       <workItem from="1712487105588" duration="8508000" />
+      <workItem from="1712515319684" duration="123000" />
+      <workItem from="1712515448658" duration="1944000" />
     </task>
     <servers />
   </component>

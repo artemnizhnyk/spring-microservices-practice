@@ -1,1 +1,13 @@
-spring.application.name=registry-service
+server:
+  port: 8761
+
+spring:
+    application:
+      name: registry-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false

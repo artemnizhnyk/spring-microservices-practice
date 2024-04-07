@@ -17,7 +17,6 @@ public class Quiz {
     private Integer id;
     private String title;
 
-    @ManyToMany
-    @ToString.Exclude
-    private List<Question> questions;
+    @ElementCollection
+    private List<Integer> questionIds;
 }
