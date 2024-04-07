@@ -40,8 +40,8 @@ public class QuestionController {
     }
 
     @PostMapping("/getQuestions")
-    public ResponseEntity<List<QuestionDto>> getQuestionsFromId(@RequestBody final List<Integer> questionIds) {
-        return questionService.getQuestionsFromId(questionIds);
+    public ResponseEntity<List<QuestionDto>> findQuestionsById(@RequestBody final List<Integer> questionIds) {
+        return questionService.findQuestionsById(questionIds);
     }
 
     @PostMapping("/getScore")

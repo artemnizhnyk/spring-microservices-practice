@@ -47,7 +47,7 @@ public class QuestionService {
         return new ResponseEntity<>(questions, HttpStatus.OK);
     }
 
-    public ResponseEntity<List<QuestionDto>> getQuestionsFromId(final List<Integer> questionIds) {
+    public ResponseEntity<List<QuestionDto>> findQuestionsById(final List<Integer> questionIds) {
         List<Question> questions = new ArrayList<>();
         questionIds.forEach(q -> questions.add(questionRepository.findById(q).get()));
         List<QuestionDto> questionDtos = questions.stream()
